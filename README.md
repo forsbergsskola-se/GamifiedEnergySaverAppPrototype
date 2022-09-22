@@ -27,7 +27,7 @@ Olof Forsgren
 
 Erick Vaghi
 
-Jack Fors Ahlberg | [LinkedIn](https://www.linkedin.com/in/jack-fors-ahlberg-9a8657221/) 
+Jack Fors Ahlberg | [LinkedIn](https://www.linkedin.com/in/jack-fors-ahlberg-9a8657221/) [Portfolio](https://www.jackahlberg.com/)
 
 Petter Soderberg
 
