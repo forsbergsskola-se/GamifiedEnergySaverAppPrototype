@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -12,14 +11,24 @@ public class GridManager : MonoBehaviour
     public List<GameObject> UITiles;
     public GameObject SelectedTile;
     private int SelectedTileIndex;
-    public Transform BuildingSelector;
+    
+
+    public GameObject BuildingSelector;
+    private Image _uiGrid;
+
     [SerializeField] public float UnselectedOpacity = 0.5f;
     private bool _tileBeingDragged = false;
     private Vector3 _mousePos;
 
 
-    private void Awake() => _cam = FindObjectOfType<Camera>();
+    private void Awake()
+    {
+        _cam = FindObjectOfType<Camera>();
+        _uiGrid = BuildingSelector.GetComponent<Image>();
+    }
 
+    
+    
     private void Start()
     {
         var i = 0;
@@ -30,14 +39,13 @@ public class GridManager : MonoBehaviour
             {
                 transform =
                 {
-                    parent = BuildingSelector,
+                    parent = BuildingSelector.transform,
                     localScale = Vector3.one
                 }
             };
 
             var tileClick = uiTile.AddComponent<TileClick>();
             tileClick.Index = i;
-            
             
             var UIImage = uiTile.AddComponent<Image>(); 
             UIImage.sprite = tile.sprite;
@@ -54,6 +62,7 @@ public class GridManager : MonoBehaviour
         }
     }
 
+    
 
     private void Update()
     {
@@ -61,6 +70,8 @@ public class GridManager : MonoBehaviour
         _mousePos = _cam.ScreenToWorldPoint(Input.mousePosition);
     }
 
+    
+    
     public void SelectTile(float Opacity, int Index)
     {
         SelectedTileIndex = Index;
@@ -68,15 +79,29 @@ public class GridManager : MonoBehaviour
         var tileSprite = SelectedTile.gameObject.GetComponent<Image>();
         var tileColour = tileSprite.color;
         tileColour.a = Opacity;
-        
+
+        ToggleUI(false);
         _tileBeingDragged = true;
     }
 
 
+    
     public void DropTile()
     {
         Tilemap.SetTile(Tilemap.WorldToCell(_mousePos), Tiles[SelectedTileIndex]);
         SelectedTile = null;
+        ToggleUI(true);
+
         _tileBeingDragged = false;
+    }
+
+    
+
+    private void ToggleUI(bool toggle)
+    {
+        _uiGrid.enabled = toggle;
+        
+        foreach (var tile in UITiles)
+            tile.GetComponent<Image>().enabled = toggle;
     }
 }
