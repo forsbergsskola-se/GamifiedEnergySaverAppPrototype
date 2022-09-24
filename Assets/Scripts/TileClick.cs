@@ -3,28 +3,27 @@ using UnityEngine.EventSystems;
 
 public class TileClick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
-   private SpriteRenderer _sr;
+   //private SpriteRenderer _sr;
    private GridManager _gridManager;
-   private float _dimmedOpacity;
+   [SerializeField] public int Index;
 
    private void Awake()
    {
-      _sr = gameObject.GetComponent<SpriteRenderer>();
+      //_sr = gameObject.GetComponent<SpriteRenderer>();
       _gridManager = FindObjectOfType<GridManager>();
-      _dimmedOpacity = _gridManager.UnselectedOpacity;
    }
 
-   private void OnMouseDown() => _sr.flipY = true;
+   //private void OnMouseDown() => _sr.flipY = true;
 
-   private void OnMouseUp() => _sr.flipY = false;
+   //private void OnMouseUp() => _sr.flipY = false;
 
    public void OnPointerDown(PointerEventData eventData)
    {
-      _gridManager.UpdateSelectedTile(gameObject, 1);
+      _gridManager.SelectTile(1, Index);
    }
 
    public void OnPointerUp(PointerEventData eventData)
    {
-      _gridManager.UpdateSelectedTile(gameObject, _dimmedOpacity);
+      _gridManager.DropTile();
    }
 }
