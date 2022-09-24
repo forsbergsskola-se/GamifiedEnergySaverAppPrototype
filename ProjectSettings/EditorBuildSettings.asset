@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GridPrototype.unity
     guid: 0f7b224d8ef09c1478f3946301229c94
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 4bafe807501d9b84eaa91cb837468896, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 2d321ba6396fa894fa98d80229cec26b, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 1ffebbf552ae4b846b3f3693c89b8338, type: 2}
