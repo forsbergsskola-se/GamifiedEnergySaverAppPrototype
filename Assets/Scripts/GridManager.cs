@@ -8,9 +8,9 @@ public class GridManager : MonoBehaviour
     public Tilemap Tilemap;
     public Tile[] Tiles;
     public List<GameObject> UITiles;
-    public int SelectedTile = 0;
+    public GameObject SelectedTile;
     public Transform BuildingSelector;
-    public float UnselectedOpacity = 0.5f;
+    [SerializeField] public float UnselectedOpacity = 0.5f;
 
     private void Awake()
     {
@@ -27,18 +27,28 @@ public class GridManager : MonoBehaviour
                 }
             };
 
+            uiTile.AddComponent<TileClick>();
+            
             var UIImage = uiTile.AddComponent<Image>(); 
             UIImage.sprite = tile.sprite;
             
             var tileColour = UIImage.color;
             tileColour.a = UnselectedOpacity;
-
-            if (i == SelectedTile)
-                tileColour.a = 1f;
             
+            var Button = uiTile.AddComponent<Button>();
+            Button.targetGraphic = UIImage;
+
             UIImage.color = tileColour;
             UITiles.Add(uiTile);
             i++;
         }
+    }
+
+    public void UpdateSelectedTile(GameObject Tile, float Opacity)
+    {
+        SelectedTile = Tile;
+        var tileSprite = SelectedTile.GetComponent<Image>();
+        var tileColour = tileSprite.color;
+        tileColour.a = Opacity;
     }
 }
