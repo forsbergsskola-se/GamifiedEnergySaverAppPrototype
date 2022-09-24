@@ -2365,7 +2365,7 @@ GameObject:
   - component: {fileID: 1231006989}
   - component: {fileID: 1231006990}
   m_Layer: 0
-  m_Name: BuildManager
+  m_Name: BuildingManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2406,7 +2406,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0ddaeec120a668a4eb6019cf6c4870df, type: 2}
   - {fileID: 11400000, guid: 4b9579dc7e2fd244a9db65717a42b268, type: 2}
   UITiles: []
-  SelectedTile: 1
+  SelectedTile: {fileID: 0}
   BuildingSelector: {fileID: 1024844348}
   UnselectedOpacity: 0.5
 --- !u!1001 &1298956194
