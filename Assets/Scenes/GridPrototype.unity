@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 255903087}
   - component: {fileID: 255903086}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: SelectHeading
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -701,7 +701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1509072098}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: Scaler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1074,9 +1074,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6445633491449188478, guid: 33db6f8f6a2c1e04b8dd1799ad06c41f, type: 3}
+      propertyPath: Scaler
+      value: 
+      objectReference: {fileID: 255903084}
+    - target: {fileID: 6445633491449188478, guid: 33db6f8f6a2c1e04b8dd1799ad06c41f, type: 3}
       propertyPath: Tilemap
       value: 
       objectReference: {fileID: 1290445244}
+    - target: {fileID: 6445633491449188478, guid: 33db6f8f6a2c1e04b8dd1799ad06c41f, type: 3}
+      propertyPath: SelectHeading
+      value: 
+      objectReference: {fileID: 255903084}
     - target: {fileID: 6445633491449188478, guid: 33db6f8f6a2c1e04b8dd1799ad06c41f, type: 3}
       propertyPath: BuildingSelector
       value: 
