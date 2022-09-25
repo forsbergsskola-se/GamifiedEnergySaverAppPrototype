@@ -88,10 +88,12 @@ public class GridManager : MonoBehaviour
     
     public void DropTile()
     {
-        Tilemap.SetTile(Tilemap.WorldToCell(_mousePos), Tiles[SelectedTileIndex]);
+        TileBase tileBase = Tiles[SelectedTileIndex];
+        var chosenCell = new Vector3(_mousePos.x, _mousePos.y, 0);
+        Tilemap.SetTile(Tilemap.WorldToCell(chosenCell), tileBase);
+        
         SelectedTile = null;
         ToggleUI(true);
-
         _tileBeingDragged = false;
     }
 
@@ -100,7 +102,6 @@ public class GridManager : MonoBehaviour
     private void ToggleUI(bool toggle)
     {
         _uiGrid.enabled = toggle;
-        
         foreach (var tile in UITiles)
             tile.GetComponent<Image>().enabled = toggle;
     }
