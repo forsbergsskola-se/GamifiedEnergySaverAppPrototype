@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
@@ -11,14 +12,17 @@ public class GridManager : MonoBehaviour
     public List<GameObject> UITiles;
     public GameObject SelectedTile;
     private int SelectedTileIndex;
-    
 
+
+    public bool ToggleSelectUI = true;
     public GameObject BuildingSelector;
+    public GameObject SelectHeading;
     private Image _uiGrid;
 
     [SerializeField] public float UnselectedOpacity = 0.5f;
     private bool _tileBeingDragged = false;
     private Vector3 _mousePos;
+    
 
 
     private void Awake()
@@ -101,6 +105,10 @@ public class GridManager : MonoBehaviour
 
     private void ToggleUI(bool toggle)
     {
+        if (ToggleSelectUI == false) return;
+        
+        SelectHeading.GetComponent<Image>().enabled = toggle;
+        SelectHeading.GetComponentInChildren<TextMeshProUGUI>().enabled = toggle;
         _uiGrid.enabled = toggle;
         foreach (var tile in UITiles)
             tile.GetComponent<Image>().enabled = toggle;
