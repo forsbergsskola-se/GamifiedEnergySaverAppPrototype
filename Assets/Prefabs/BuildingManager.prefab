@@ -53,5 +53,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4b9579dc7e2fd244a9db65717a42b268, type: 2}
   UITiles: []
   SelectedTile: {fileID: 0}
+  ToggleSelectUI: 1
   BuildingSelector: {fileID: 0}
+  SelectHeading: {fileID: 0}
   UnselectedOpacity: 0.75
