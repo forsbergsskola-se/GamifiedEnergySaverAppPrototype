@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Workspace" id="{8a7eec1b-ce9f-44dd-ae7a-20decec38cae}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../../../../Documents/Unity/GamifiedEnergySaverAppPrototype/Assets/Streaming Assets</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{33c74a67-88ad-48c5-8ed7-eb344f11e631}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{d0f6e8b8-dcb7-49f1-84cc-91f3e6779f8b}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{254619ba-66a4-443b-b2ec-301692c8ac9d}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{9b289819-b279-417a-bb64-e7dec69b8e13}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{f66f43d2-918f-4ad5-aebb-a6d1d762f14c}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{5f3ae2f0-91f1-4bf0-92ea-a25bdb918754}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{18087b18-8cb6-42a7-902c-8aa126441bf2}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{22adbb26-6fcc-4bc8-b33b-5cbd846b22f5}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{b46b4601-23f9-4426-9d7d-19a751f78915}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{3cbeca0d-c48a-4a3b-a081-d768fe7ef640}</destination>
+		</relationship>
+	</object>
+</objects>
