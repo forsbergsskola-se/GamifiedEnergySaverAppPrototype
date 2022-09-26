@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{56d5dbba-94b4-4748-a01b-b80d200f002f}">
+	<object class="AudioFile" id="{fb2f8e49-18b1-43ad-b3f7-18761d4503e8}">
 		<property name="assetPath">
-			<value>EnergyNoise.wav</value>
+			<value>Grass.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
 		</property>
 		<property name="channelCount">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.70797916666666671</value>
+			<value>0.69766666666666666</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{18087b18-8cb6-42a7-902c-8aa126441bf2}</destination>
