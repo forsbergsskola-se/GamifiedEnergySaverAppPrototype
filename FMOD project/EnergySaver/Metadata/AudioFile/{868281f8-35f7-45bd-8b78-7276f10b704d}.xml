@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{868281f8-35f7-45bd-8b78-7276f10b704d}">
+		<property name="assetPath">
+			<value>Mitt Kalas.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>246.97675000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{18087b18-8cb6-42a7-902c-8aa126441bf2}</destination>
+		</relationship>
+	</object>
+</objects>
