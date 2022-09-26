@@ -5,7 +5,7 @@
 			<value>PlaceBuilding</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{33c74a67-88ad-48c5-8ed7-eb344f11e631}</destination>
@@ -92,7 +92,7 @@
 	</object>
 	<object class="MultiSound" id="{bed454cd-5da7-4e70-97c1-c216c3f0c5d7}">
 		<relationship name="sounds">
-			<destination>{4108784c-6fff-43b3-a22d-c4f2263ee2cf}</destination>
+			<destination>{4ccdb735-ecb6-4c77-a5b6-eb8a94340adb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{90bf5cdf-ec12-4a02-8f74-f3d56799f444}">
@@ -121,9 +121,16 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e1775aad-7a57-4548-828a-c94c7556bd1a}" />
-	<object class="SingleSound" id="{4108784c-6fff-43b3-a22d-c4f2263ee2cf}">
+	<object class="SingleSound" id="{4ccdb735-ecb6-4c77-a5b6-eb8a94340adb}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{ae6a9377-e117-424c-8137-da49941c5cc2}</destination>
+			<destination>{5e3d381d-34e8-40cd-a025-200723724682}</destination>
+		</relationship>
 		<relationship name="audioFile">
-			<destination>{b63e0486-fdd1-47d9-bb33-eb974c05b0f9}</destination>
+			<destination>{fb2f8e49-18b1-43ad-b3f7-18761d4503e8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c003c744-0213-41cb-8a52-d0013bccb334}" />
@@ -134,5 +141,21 @@
 	</object>
 	<object class="MixerBusPanner" id="{1acaeed5-b16a-4722-a0b5-d9b44c89b678}" />
 	<object class="MixerBusFader" id="{1a20d1e1-5aec-4483-ad17-80a5c0407df6}" />
+	<object class="RandomizerModulator" id="{ae6a9377-e117-424c-8137-da49941c5cc2}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>4.5</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{5e3d381d-34e8-40cd-a025-200723724682}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>2.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{bd8f79f7-4975-429c-b964-d23921f6d121}" />
 </objects>
