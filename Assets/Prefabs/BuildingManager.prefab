@@ -55,5 +55,4 @@ MonoBehaviour:
   SelectedTile: {fileID: 0}
   ToggleSelectUI: 1
   BuildingSelector: {fileID: 0}
-  SelectHeading: {fileID: 0}
   UnselectedOpacity: 0.75
