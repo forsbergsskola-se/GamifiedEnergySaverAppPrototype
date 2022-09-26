@@ -8520,6 +8520,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7772180008129704502}
     m_Modifications:
+    - target: {fileID: 60639297377791374, guid: 428bb597c3dc47b4b91c378407eea599, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d435fb2bc617305408dbe33942ab6fb4, type: 3}
     - target: {fileID: 60639298086776324, guid: 428bb597c3dc47b4b91c378407eea599, type: 3}
       propertyPath: m_Name
       value: Bottom Panel
