@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{8a7eec1b-ce9f-44dd-ae7a-20decec38cae}">
 		<property name="builtBanksOutputDirectory">
-			<value>../../../../../Documents/Unity/GamifiedEnergySaverAppPrototype/Assets/Streaming Assets</value>
+			<value>../../Assets/Streaming Assets</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{33c74a67-88ad-48c5-8ed7-eb344f11e631}</destination>
