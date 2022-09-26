@@ -16,7 +16,7 @@ public class GridManager : MonoBehaviour
 
     public bool ToggleSelectUI = true;
     public GameObject BuildingSelector;
-    public GameObject SelectHeading;
+    //public GameObject SelectHeading;
     private Image _uiGrid;
 
     [SerializeField] public float UnselectedOpacity = 0.5f;
@@ -107,8 +107,8 @@ public class GridManager : MonoBehaviour
     {
         if (ToggleSelectUI == false) return;
         
-        SelectHeading.GetComponent<Image>().enabled = toggle;
-        SelectHeading.GetComponentInChildren<TextMeshProUGUI>().enabled = toggle;
+        //SelectHeading.GetComponent<Image>().enabled = toggle;
+        //SelectHeading.GetComponentInChildren<TextMeshProUGUI>().enabled = toggle;
         _uiGrid.enabled = toggle;
         foreach (var tile in UITiles)
             tile.GetComponent<Image>().enabled = toggle;
