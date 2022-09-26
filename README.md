@@ -36,6 +36,7 @@ Petter Soderberg | [LinkedIn](https://www.linkedin.com/in/petter-s%C3%B6derberg-
 Arvid Lundin | [LinkedIn](https://www.linkedin.com/in/arvid-lundin-a5b18622b/)
 
 Tom Olovsson | [LinkedIn](https://www.linkedin.com/in/tom-olovsson-62a5b799/)
+:)
 
 
 ## Programming
