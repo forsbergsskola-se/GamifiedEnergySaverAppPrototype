@@ -113,3 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canMove: 1
   _camera: {fileID: 6896496691928263529}
+  ClampMinX: -13
+  ClampMinY: -11
+  ClampMaxX: 13
+  ClampMaxY: 0
