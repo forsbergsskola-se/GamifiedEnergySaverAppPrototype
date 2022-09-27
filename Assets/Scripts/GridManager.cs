@@ -21,6 +21,7 @@ public class GridManager : MonoBehaviour
     private Vector3 _mousePos;
     public GameObject DragTile;
     private Vector3 DragTileDefaultPos;
+    public GameObject Scrollbar;
     private SoundManager _soundManager;
     
 
@@ -131,6 +132,7 @@ public class GridManager : MonoBehaviour
     {
         if (ToggleSelectUI == false) return;
         _uiGrid.enabled = toggle;
+        Scrollbar.SetActive(toggle);
         foreach (var tile in UITiles)
             tile.GetComponent<Image>().enabled = toggle;
     }
