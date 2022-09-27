@@ -21,11 +21,8 @@ public class GridManager : MonoBehaviour
     private Vector3 _mousePos;
     public GameObject DragTile;
     private Vector3 DragTileDefaultPos;
-    public Canvas MainCanvas;
     private SoundManager _soundManager;
-
-
-
+    
 
     private void Awake()
     {
@@ -76,10 +73,7 @@ public class GridManager : MonoBehaviour
     {
         if (_tileBeingDragged == false) return;
         _mousePos = _cam.ScreenToWorldPoint(Input.mousePosition);
-        
-        
-        //DragTile.transform.position = _mousePos;
-        //Debug.Log($"{DragTile.transform.position}");
+        DragTile.transform.position = new Vector3(_mousePos.x, _mousePos.y, DragTile.transform.position.z);
     }
 
     
@@ -89,16 +83,14 @@ public class GridManager : MonoBehaviour
         _soundManager.PlaySnapSFX();
         SelectedTileIndex = Index;
         SelectedTile = UITiles[SelectedTileIndex];
+        
         var tileSprite = SelectedTile.gameObject.GetComponent<Image>();
         var tileColour = tileSprite.color;
         tileColour.a = Opacity;
 
         ToggleUI(false);
-        _tileBeingDragged = true;
         AddDragSprite(TileSprite);
-        
-        
-
+        _tileBeingDragged = true;
     }
 
 
@@ -120,10 +112,12 @@ public class GridManager : MonoBehaviour
 
     private void AddDragSprite(GameObject TileSprite)
     {
-        DragTile.transform.position = TileSprite.transform.position;
-        DragTile.transform.rotation = TileSprite.transform.rotation;
-        DragTile.transform.localScale = TileSprite.transform.localScale;
+        var tileTransform = TileSprite.transform;
+
+        DragTile.transform.position = tileTransform.position;
+        DragTile.transform.rotation = tileTransform.rotation;
         DragTile.GetComponent<Image>().sprite = TileSprite.GetComponent<Image>().sprite;
+        DragTile.transform.localScale = tileTransform.localScale * 2;
     }
 
 
@@ -131,9 +125,6 @@ public class GridManager : MonoBehaviour
     private void ToggleUI(bool toggle)
     {
         if (ToggleSelectUI == false) return;
-        
-        //SelectHeading.GetComponent<Image>().enabled = toggle;
-        //SelectHeading.GetComponentInChildren<TextMeshProUGUI>().enabled = toggle;
         _uiGrid.enabled = toggle;
         foreach (var tile in UITiles)
             tile.GetComponent<Image>().enabled = toggle;
