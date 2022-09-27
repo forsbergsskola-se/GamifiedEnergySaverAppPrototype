@@ -1,8 +1,8 @@
-# Energy Saver 3000
+# Greenify
 
 ### Mission:
 
-*The world is in the middle of an energy crisis and prices are skyrocketing. Our business idea is to provide a handy way to keep track of household energy consumption.*
+*The world is in the middle of an energy crisis and prices are skyrocketing. Greenify provides a handy way to keep track of household energy consumption.*
 
 *We will do this by gamifying energy management and conservation through an app.*
 
