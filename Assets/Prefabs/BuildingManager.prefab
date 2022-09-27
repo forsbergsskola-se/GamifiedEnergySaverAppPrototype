@@ -46,13 +46,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Tilemap: {fileID: 0}
   Tiles:
-  - {fileID: 11400000, guid: cb390fdc6c86e424cb1b1ccbbf3ca7ae, type: 2}
-  - {fileID: 11400000, guid: 713f05aea800bef43aed5eaa2327e276, type: 2}
-  - {fileID: 11400000, guid: 28f7610692ab544438e6494caf583308, type: 2}
-  - {fileID: 11400000, guid: 0ddaeec120a668a4eb6019cf6c4870df, type: 2}
-  - {fileID: 11400000, guid: 4b9579dc7e2fd244a9db65717a42b268, type: 2}
+  - {fileID: 11400000, guid: 08781504c880cc64186c4b4e87b9d240, type: 2}
+  - {fileID: 11400000, guid: c0972eff6e0eb674b9f70cb6047a2dd3, type: 2}
+  - {fileID: 11400000, guid: fd5603be30928ee419bf86b51f48301a, type: 2}
+  - {fileID: 11400000, guid: fde1d952177dbf44fb870a079f9d0687, type: 2}
+  - {fileID: 11400000, guid: c8d4520a9538d6842b3eab0c53d6ce79, type: 2}
+  - {fileID: 11400000, guid: b4bbeb3e8b610c04f9798bf6e4cc1c76, type: 2}
+  - {fileID: 11400000, guid: f0fbb8ebc984576498489a482c7e7b0a, type: 2}
+  - {fileID: 11400000, guid: f8db624b4b7981f43a6bb9d144549c9e, type: 2}
   UITiles: []
   SelectedTile: {fileID: 0}
   ToggleSelectUI: 1
   BuildingSelector: {fileID: 0}
   UnselectedOpacity: 0.75
+  DragTile: {fileID: 0}
+  MainCanvas: {fileID: 0}
