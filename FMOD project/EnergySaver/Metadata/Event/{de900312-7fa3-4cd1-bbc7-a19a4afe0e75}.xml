@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{de900312-7fa3-4cd1-bbc7-a19a4afe0e75}">
 		<property name="name">
-			<value>New Event</value>
+			<value>Ambience</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -201,9 +201,18 @@
 	<object class="MixerBusEffectChain" id="{b6d253e6-165c-4bed-9237-df31acda1622}">
 		<relationship name="effects">
 			<destination>{ca3c4276-937b-4ae9-906a-da84e94f9d14}</destination>
+			<destination>{04dab033-c8a4-4202-8e64-4583a4164447}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7831b237-c852-4a54-b755-b1514a21cd12}" />
 	<object class="MixerBusFader" id="{18852e25-7edd-419b-8654-8f161107bd7b}" />
 	<object class="MixerBusFader" id="{ca3c4276-937b-4ae9-906a-da84e94f9d14}" />
+	<object class="ThreeEQEffect" id="{04dab033-c8a4-4202-8e64-4583a4164447}">
+		<property name="lowGain">
+			<value>-80</value>
+		</property>
+		<property name="highGain">
+			<value>-21.5</value>
+		</property>
+	</object>
 </objects>
