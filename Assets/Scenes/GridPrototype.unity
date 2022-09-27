@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &780930611 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6896496691928263535, guid: 6ccc7b7d76f0dfa45bf7873b6758aa3f, type: 3}
+  m_PrefabInstance: {fileID: 6896496691670442533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &998365061 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 60639298086776325, guid: 428bb597c3dc47b4b91c378407eea599, type: 3}
@@ -244,6 +249,36 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 6896496691928263529, guid: 6ccc7b7d76f0dfa45bf7873b6758aa3f, type: 3}
   m_PrefabInstance: {fileID: 6896496691670442533}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1204651072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780930611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1611897783
+      Data2: 1131528652
+      Data3: 1462849156
+      Data4: -407096199
+    Path: event:/MusicTheme
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!224 &1283341775 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5308482437424467920, guid: 1b106ce00ab0eef4294becd8569c3926, type: 3}
@@ -1049,6 +1084,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6896496691928263528, guid: 6ccc7b7d76f0dfa45bf7873b6758aa3f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6896496691928263534, guid: 6ccc7b7d76f0dfa45bf7873b6758aa3f, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6896496691928263535, guid: 6ccc7b7d76f0dfa45bf7873b6758aa3f, type: 3}
