@@ -104,6 +104,8 @@ public class GridManager : MonoBehaviour
         // can't place tile where there's no grass already
         if (Tilemap.GetTile(Tilemap.WorldToCell(chosenCell)) != null)
             Tilemap.SetTile(Tilemap.WorldToCell(chosenCell), tileBase);
+        
+        if (Tilemap.GetTile(Tilemap.WorldToCell(chosenCell)).GetTileData() )
 
         DragTile.transform.position = DragTileDefaultPos;
         SelectedTile = null;
