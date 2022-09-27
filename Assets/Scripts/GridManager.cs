@@ -100,7 +100,10 @@ public class GridManager : MonoBehaviour
         _soundManager.PlayPlaceBuildingSFX();
         TileBase tileBase = Tiles[SelectedTileIndex];
         var chosenCell = new Vector3(_mousePos.x, _mousePos.y, 0);
-        Tilemap.SetTile(Tilemap.WorldToCell(chosenCell), tileBase);
+        
+        // can't place tile where there's no grass already
+        if (Tilemap.GetTile(Tilemap.WorldToCell(chosenCell)) != null)
+            Tilemap.SetTile(Tilemap.WorldToCell(chosenCell), tileBase);
 
         DragTile.transform.position = DragTileDefaultPos;
         SelectedTile = null;
