@@ -12,17 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Home.unity
     guid: 38b47fa41b23cd9449c2db8a5e786c73
   - enabled: 1
-    path: Assets/Scenes/GridPrototype.unity
+    path: Assets/Scenes/Builder.unity
     guid: 0f7b224d8ef09c1478f3946301229c94
+  - enabled: 1
+    path: Assets/Scenes/Overview.unity
+    guid: 41189579ed63de644b29ca404da2ff06
   - enabled: 1
     path: Assets/Scenes/Rooms.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
     path: Assets/Scenes/Devices.unity
     guid: eb1825433d2543943948ee1d8810fbce
-  - enabled: 1
-    path: Assets/Scenes/Overview.unity
-    guid: 41189579ed63de644b29ca404da2ff06
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 4bafe807501d9b84eaa91cb837468896, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 2d321ba6396fa894fa98d80229cec26b, type: 2}
