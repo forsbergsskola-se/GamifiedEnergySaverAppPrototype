@@ -7,7 +7,14 @@ public class CameraDrag : MonoBehaviour
     private Vector3 _reset;
     private bool _drag = false;
     public bool canMove = true;
+    
     public Camera _camera;
+    public float ClampMinX;
+    public float ClampMinY;
+    public float ClampMaxX;
+    public float ClampMaxY;
+
+
 
     private void Awake() => _reset = _camera.transform.position;
 
@@ -26,7 +33,17 @@ public class CameraDrag : MonoBehaviour
         else
             _drag = false;
 
-        if (_drag)
-            _camera.transform.position = _origin - _difference;
+        if (!_drag) return;
+        
+        _camera.transform.position = _origin - _difference;
+        CalculateCamBounds();
+    }
+
+    private void CalculateCamBounds()
+    {
+        _camera.transform.position = new Vector3
+        (Mathf.Clamp(_camera.transform.position.x, ClampMinX, ClampMaxX),
+            Mathf.Clamp(_camera.transform.position.y, ClampMinY, ClampMaxY), 
+            _camera.transform.position.z);
     }
 }
