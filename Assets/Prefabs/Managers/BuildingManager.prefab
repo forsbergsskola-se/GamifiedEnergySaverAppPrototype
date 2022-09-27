@@ -60,3 +60,4 @@ MonoBehaviour:
   BuildingSelector: {fileID: 0}
   UnselectedOpacity: 0.75
   DragTile: {fileID: 0}
+  Scrollbar: {fileID: 0}
