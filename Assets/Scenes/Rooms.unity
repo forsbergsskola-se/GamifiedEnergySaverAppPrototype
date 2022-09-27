@@ -3362,7 +3362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7300d1d35cd4fc40bbdebab7217d956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 3
+  SceneName: Overview
 --- !u!222 &675125029872147257
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4130,7 +4130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7300d1d35cd4fc40bbdebab7217d956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 2
+  SceneName: Rooms
 --- !u!1 &5934386718011410812
 GameObject:
   m_ObjectHideFlags: 0
@@ -4179,7 +4179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7300d1d35cd4fc40bbdebab7217d956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 2
+  SceneName: Devices
 --- !u!222 &6184674463256956092
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4646,7 +4646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7300d1d35cd4fc40bbdebab7217d956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 1
+  SceneName: Builder
 --- !u!114 &8037888990806822546
 MonoBehaviour:
   m_ObjectHideFlags: 0
