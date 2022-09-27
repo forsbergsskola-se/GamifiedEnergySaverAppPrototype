@@ -62,7 +62,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.88235295}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -320,7 +320,7 @@ GameObject:
   - component: {fileID: 476383070986326325}
   - component: {fileID: 9007658686744926822}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -346,7 +346,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -320.7, y: -43}
+  m_AnchoredPosition: {x: -320.7, y: -30}
   m_SizeDelta: {x: 73.361, y: 51.468}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6184674464868513146
@@ -508,7 +508,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2910481538967717856, guid: 488e64f03945d6b45b95b1f5ab012ce5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -43
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 2910481538967717856, guid: 488e64f03945d6b45b95b1f5ab012ce5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -526,6 +526,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: kW_Counter_Background
       objectReference: {fileID: 0}
+    - target: {fileID: 2910481539967179868, guid: 488e64f03945d6b45b95b1f5ab012ce5, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910481539967179868, guid: 488e64f03945d6b45b95b1f5ab012ce5, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910481539967179871, guid: 488e64f03945d6b45b95b1f5ab012ce5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -9.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 488e64f03945d6b45b95b1f5ab012ce5, type: 3}
 --- !u!224 &5308482436981405598 stripped
@@ -540,6 +552,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5308482437424467920}
     m_Modifications:
+    - target: {fileID: 2695386512475355916, guid: 0b384a61086f31245a51e059fc6028cc, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2695386512475355916, guid: 0b384a61086f31245a51e059fc6028cc, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 3824527478377933149, guid: 0b384a61086f31245a51e059fc6028cc, type: 3}
       propertyPath: m_Name
       value: Current_Currency
@@ -622,7 +642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4166587747726154729, guid: 0b384a61086f31245a51e059fc6028cc, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -43
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 4166587747726154729, guid: 0b384a61086f31245a51e059fc6028cc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
