@@ -559,15 +559,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3867519872391775833, guid: 92cd97ade25c1cb44951fd92b0ff99ec, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3867519872391775833, guid: 92cd97ade25c1cb44951fd92b0ff99ec, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3867519872391775833, guid: 92cd97ade25c1cb44951fd92b0ff99ec, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3867519872391775833, guid: 92cd97ade25c1cb44951fd92b0ff99ec, type: 3}
       propertyPath: m_AnchorMin.y
@@ -575,11 +575,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3867519872391775833, guid: 92cd97ade25c1cb44951fd92b0ff99ec, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 2280.3
+      value: 2440.3
       objectReference: {fileID: 0}
     - target: {fileID: 3867519872391775833, guid: 92cd97ade25c1cb44951fd92b0ff99ec, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -1288
+      value: 373.8198
       objectReference: {fileID: 0}
     - target: {fileID: 3867519872391775833, guid: 92cd97ade25c1cb44951fd92b0ff99ec, type: 3}
       propertyPath: m_LocalPosition.x
@@ -611,7 +611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3867519872391775833, guid: 92cd97ade25c1cb44951fd92b0ff99ec, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 530.0752
+      value: 210.0752
       objectReference: {fileID: 0}
     - target: {fileID: 3867519872391775833, guid: 92cd97ade25c1cb44951fd92b0ff99ec, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -724,7 +724,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2148425882892621182, guid: f8edd66032f959e4da3b3dbdd8e7ede3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 361.9
+      value: 348.4
       objectReference: {fileID: 0}
     - target: {fileID: 2148425882892621182, guid: f8edd66032f959e4da3b3dbdd8e7ede3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
