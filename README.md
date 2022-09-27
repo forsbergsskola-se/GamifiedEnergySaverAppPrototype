@@ -10,9 +10,13 @@
 ###
 # Media
 
+![Greenergy_Logo_2](https://user-images.githubusercontent.com/90158105/192615377-e802202e-a8b5-48bb-b957-1e1deb32e835.jpg)
 
-### Persona
-![Persona](https://user-images.githubusercontent.com/90158105/191715303-27f5c892-36f5-4bdd-bb35-63c36a17873a.JPG)
+![mobiledisplay](https://user-images.githubusercontent.com/90158105/192615694-8bf9de24-8b39-48ac-ab4c-ac7bc3994e79.png)
+
+# Gif showing Drag & Drop System
+
+![ScrollSystem](https://user-images.githubusercontent.com/90158105/192615468-b16006f5-27d4-4dc5-950e-02e7734851a4.gif)
 
 
 ## Art
@@ -48,3 +52,6 @@ Harry Heath | [LinkedIn](https://www.linkedin.com/in/hmtheath/) [Portfolio](http
 [Figma Protoype Concepts](https://www.figma.com/file/GRV6IxP4urTbBQa69wuOaa/Energy-Saving-App?node-id=0%3A1)
 
 [Miro Lean Canvas](https://miro.com/app/board/uXjVPUpC_YA=/)
+
+### Persona
+![Persona](https://user-images.githubusercontent.com/90158105/191715303-27f5c892-36f5-4bdd-bb35-63c36a17873a.JPG)
