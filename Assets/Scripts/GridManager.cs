@@ -12,9 +12,6 @@ public class GridManager : MonoBehaviour
     public GameObject SelectedTile;
     private int SelectedTileIndex;
 
-    private SoundManager _soundManager;
-
-
     public bool ToggleSelectUI = true;
     public GameObject BuildingSelector;
     private Image _uiGrid;
@@ -25,6 +22,8 @@ public class GridManager : MonoBehaviour
     public GameObject DragTile;
     private Vector3 DragTileDefaultPos;
     public Canvas MainCanvas;
+    private SoundManager _soundManager;
+
 
 
 
@@ -81,7 +80,6 @@ public class GridManager : MonoBehaviour
         
         //DragTile.transform.position = _mousePos;
         //Debug.Log($"{DragTile.transform.position}");
-
     }
 
     
@@ -122,22 +120,14 @@ public class GridManager : MonoBehaviour
 
     private void AddDragSprite(GameObject TileSprite)
     {
-        var tempSprite = Instantiate(TileSprite, TileSprite.transform.position, TileSprite.transform.rotation);
-        //var dragSprite = DragTile.GetComponent<Image>();
-        //dragSprite.sprite = TileSprite.GetComponent<Image>().sprite;
-        //DragTile.transform.localScale = TileSprite.transform.localScale;
-        //UpdateAlpha(dragSprite, 255);
+        DragTile.transform.position = TileSprite.transform.position;
+        DragTile.transform.rotation = TileSprite.transform.rotation;
+        DragTile.transform.localScale = TileSprite.transform.localScale;
+        DragTile.GetComponent<Image>().sprite = TileSprite.GetComponent<Image>().sprite;
     }
 
 
-    private void UpdateAlpha(Image image, int alpha)
-    {
-        var colour = image.color;
-        colour.a = alpha;
-    }
-
-
-
+    
     private void ToggleUI(bool toggle)
     {
         if (ToggleSelectUI == false) return;
@@ -147,5 +137,13 @@ public class GridManager : MonoBehaviour
         _uiGrid.enabled = toggle;
         foreach (var tile in UITiles)
             tile.GetComponent<Image>().enabled = toggle;
+    }
+    
+    
+    
+    private void UpdateAlpha(Image image, int alpha)
+    {
+        var colour = image.color;
+        colour.a = alpha;
     }
 }
