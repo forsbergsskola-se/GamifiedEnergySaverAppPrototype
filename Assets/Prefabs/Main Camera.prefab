@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1204651069}
   - component: {fileID: 1204651072}
   - component: {fileID: 1204651077}
+  - component: {fileID: 1558245476}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -165,3 +166,33 @@ MonoBehaviour:
   MinOrthographicSize: 3
   MaxOrthographicSize: 8
   zoomModifierSpeed: 0.1
+--- !u!114 &1558245476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6896496691928263535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1611897783
+      Data2: 1131528652
+      Data3: 1462849156
+      Data4: -407096199
+    Path: event:/MusicTheme
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
