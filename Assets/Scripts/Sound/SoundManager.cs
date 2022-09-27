@@ -24,7 +24,7 @@ public class SoundManager : MonoBehaviour
     }
     public void PlayPlaceBuildingSFX()
     {
-        snapInstance.start();
+        placeBuildingInstance.start();
     }
     private void OnDestroy()
     {
