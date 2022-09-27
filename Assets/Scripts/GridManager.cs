@@ -105,8 +105,6 @@ public class GridManager : MonoBehaviour
         if (Tilemap.GetTile(Tilemap.WorldToCell(chosenCell)) != null)
             Tilemap.SetTile(Tilemap.WorldToCell(chosenCell), tileBase);
         
-        if (Tilemap.GetTile(Tilemap.WorldToCell(chosenCell)).GetTileData() )
-
         DragTile.transform.position = DragTileDefaultPos;
         SelectedTile = null;
         ToggleUI(true);
