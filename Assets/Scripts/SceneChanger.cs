@@ -8,7 +8,7 @@ public class SceneChanger : MonoBehaviour
 
     public void OpenScene()
     {
-        Debug.Log("Changing Scene");
-        SceneManager.LoadScene(SceneName);
+        if (SceneManager.GetActiveScene().name != SceneName)
+            SceneManager.LoadScene(SceneName);
     }
 }
