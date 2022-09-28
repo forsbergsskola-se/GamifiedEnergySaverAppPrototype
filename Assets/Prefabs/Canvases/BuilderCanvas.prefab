@@ -196,6 +196,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2148425882855189831, guid: f8edd66032f959e4da3b3dbdd8e7ede3, type: 3}
+      propertyPath: m_RaycastPadding.w
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2148425882855189831, guid: f8edd66032f959e4da3b3dbdd8e7ede3, type: 3}
+      propertyPath: m_RaycastPadding.y
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2148425882892621181, guid: f8edd66032f959e4da3b3dbdd8e7ede3, type: 3}
       propertyPath: m_Name
       value: Scroll
