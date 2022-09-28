@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &125265288 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6896496691928263535, guid: 6ccc7b7d76f0dfa45bf7873b6758aa3f, type: 3}
+  m_PrefabInstance: {fileID: 6896496691670442533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1030243673 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3126293270725262172, guid: bb83648840e808a4f8e3cb9178ddbad5, type: 3}
@@ -234,6 +239,36 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 6896496691928263529, guid: 6ccc7b7d76f0dfa45bf7873b6758aa3f, type: 3}
   m_PrefabInstance: {fileID: 6896496691670442533}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1204651069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125265288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -560987374
+      Data2: 1288798115
+      Data3: -1700673605
+      Data4: 1963916874
+    Path: event:/Ambience
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1285630021
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,6 +488,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 838645469987201296, guid: 3b474f2503f183249addde080b073a82, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 838645469987201297, guid: 3b474f2503f183249addde080b073a82, type: 3}
+      propertyPath: ambienceRef.Path
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 838645469987201297, guid: 3b474f2503f183249addde080b073a82, type: 3}
+      propertyPath: ambienceRef.Guid.Data1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 838645469987201297, guid: 3b474f2503f183249addde080b073a82, type: 3}
+      propertyPath: ambienceRef.Guid.Data2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 838645469987201297, guid: 3b474f2503f183249addde080b073a82, type: 3}
+      propertyPath: ambienceRef.Guid.Data3
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 838645469987201297, guid: 3b474f2503f183249addde080b073a82, type: 3}
+      propertyPath: ambienceRef.Guid.Data4
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 838645469987201298, guid: 3b474f2503f183249addde080b073a82, type: 3}
