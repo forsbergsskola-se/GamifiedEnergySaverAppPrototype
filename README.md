@@ -22,30 +22,29 @@
 ## Art
 
 
-Olof Forsgren | [Portfolio](https://www.artstation.com/olofforsgren7)
+Olof Forsgren |  [LinkedIn](https://www.linkedin.com/in/forsgren-olof-745a394/) | [Portfolio](https://www.artstation.com/olofforsgren7)
 
 
 ## Design
 
 Erick Vaghi | [LinkedIn](https://www.linkedin.com/in/erick-vaghi/)
 
-Jack Fors Ahlberg | [LinkedIn](https://www.linkedin.com/in/jack-fors-ahlberg-9a8657221/) [Portfolio](https://www.jackahlberg.com/)
+Jack Fors Ahlberg | [LinkedIn](https://www.linkedin.com/in/jack-fors-ahlberg-9a8657221/) | [Portfolio](https://www.jackahlberg.com/)
 
-Petter Soderberg | [LinkedIn](https://www.linkedin.com/in/petter-s%C3%B6derberg-607a3423a/) [Portfolio](https://www.pettersoderberg.com/)
+Petter Soderberg | [LinkedIn](https://www.linkedin.com/in/petter-s%C3%B6derberg-607a3423a/) | [Portfolio](https://www.pettersoderberg.com/)
 
 
 
 ## Sound
 
-Arvid Lundin | [LinkedIn](https://www.linkedin.com/in/arvid-lundin-a5b18622b/)
-=)
-Tom Olovsson | [LinkedIn](https://www.linkedin.com/in/tom-olovsson-62a5b799/)
-:)
+Arvid Lundin | [LinkedIn](https://www.linkedin.com/in/arvid-lundin-a5b18622b/) =)
+
+Tom Olovsson | [LinkedIn](https://www.linkedin.com/in/tom-olovsson-62a5b799/) :)
 
 
 ## Programming
 
-Harry Heath | [LinkedIn](https://www.linkedin.com/in/hmtheath/) [Portfolio](https://harryheath1.wixsite.com/hhgames/)
+Harry Heath | [LinkedIn](https://www.linkedin.com/in/hmtheath/) | [Portfolio](https://harryheath1.wixsite.com/hhgames/)
 
 ## Documentation
 
